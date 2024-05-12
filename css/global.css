@@ -4,7 +4,6 @@
 
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 80rem;
 }
 
 a {
@@ -34,6 +33,10 @@ p {
 
 body {
     margin: 0rem;
+}
+
+@media screen {
+
 }
 
 /* navigation bar */
