@@ -1,0 +1,53 @@
+@import url(./global.css);
+
+/* hero section */
+
+.hero {
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 40rem;
+    padding: 5rem;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: left;
+    width: 70%;
+}
+
+.hero__title {
+    color: #335576;
+    font-size: 2.75rem;
+    margin: 3rem 0.75rem 1.5rem;
+}
+
+.hero__text {
+    color: #335576;
+    margin: 0.75rem;
+}
+
+.hero__image {
+    align-self: center;
+    margin: 3rem; 
+    width: 35%;
+}
+
+.hero__image img {
+    max-height: 25rem;
+}
+
+.hero-button {
+    width: 25%;
+    padding: 0.75rem;
+    margin: 1.5rem 0.75rem 1rem;
+    color: white;
+    background-color: #DB7A4E;
+    border-radius: 25px;
+    border: none;
+    font-size: 1rem;
+    font-weight: lighter;
+}
