@@ -1,10 +1,6 @@
 @import url(./global.css);
 
-body {
-    margin: 0rem;
-}
-
-/* hawaii -- itinerary activities section */
+/* itinerary activities section */
 
 .itin {
     display: flex;
