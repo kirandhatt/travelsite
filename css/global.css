@@ -82,7 +82,7 @@ p {
     justify-content: space-around;
     align-items: flex-start;
     width: 100%;
-    padding: 2rem;
+    padding: 2rem 5rem;
 }
 
 .footer__contact, .footer__hours, .footer__social {
