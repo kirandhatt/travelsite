@@ -1,0 +1,71 @@
+@import url(./global.css);
+
+body {
+    margin: 0rem;
+}
+
+/* hawaii -- itinerary activities section */
+
+.itin {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 5rem;
+}
+
+.itin--hawaii {
+    background-image: url(../assets/Images/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.itin--iceland {
+    background-image: url(../assets/Images/iceland.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.itin--greece {
+    background-image: url(../assets/Images/greece.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.itin__title {
+    color: #FFFFFF;
+    position: relative;
+    top: 2.25rem;
+}
+
+.itin__section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem 0rem 5rem 0rem;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 25%;
+    height: 24.5rem;
+    border-radius: 0.3125rem;
+    border: .0625rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+    margin: 1rem 1rem;
+}
+
+.card__title {
+    border-bottom: .125rem solid black;
+    padding-bottom: .0625rem;
+    list-style-type: underline;
+    font-size: 1.25rem;
+    width: 85%;
+    margin: 1rem 1.25rem 1.75rem;
+}
+
+.card__item {
+    margin: 1rem;
+    padding: 1rem 5rem;
+    background-color: #FEFAF5;
+}
