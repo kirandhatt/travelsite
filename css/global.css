@@ -4,6 +4,8 @@
 
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 80rem;
+    max-width: 80rem;
 }
 
 a {
@@ -35,10 +37,6 @@ body {
     margin: 0rem;
 }
 
-@media screen {
-
-}
-
 /* navigation bar */
 
 .navigation {
@@ -46,6 +44,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-width: 80rem;
+    max-width: 80rem;
     width: 100%;
     padding: 0 5rem;
     position: fixed;
